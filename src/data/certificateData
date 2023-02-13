@@ -1,0 +1,35 @@
+export const certificateData = [
+    {
+        id: 1,
+        image: '',
+        title:'helo',
+        // course: 'Full Stack Web Development',
+        // startYear: '2022',
+        // endYear: 'Present'
+    },
+    {
+        id: 2,
+        image: 'AlmaBetter Institute',
+        title:'helo',
+        // institution: 'Sri Surya Degree Collage',
+        // course: 'Bachelor of Computer Science',
+        // startYear: '2015',
+        // endYear: '2018'
+    },
+    {
+        id: 3,
+        // institution: 'Sri Surya Junior Collage',
+        // course: 'Intermediate Education',
+        // startYear: '2013',
+        // endYear: '2015'
+        image: 'AlmaBetter Institute',
+        title:'helo',
+    },
+    // {
+    //     id: 4,
+    //     institution: 'Akshaya Academy Matriculation Higher Secondary School',
+    //     course: 'Higher Secondary',
+    //     startYear: '2017',
+    //     endYear: '2019'
+    // },
+]
