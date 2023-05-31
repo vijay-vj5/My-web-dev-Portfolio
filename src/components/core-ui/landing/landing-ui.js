@@ -77,7 +77,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                 </div>
                 <img
                     src={headerData.image}
-                    alt=''
+                    alt='profile'
                     className='landing--img'
                     style={{
                         opacity: `${drawerOpen ? '0' : '1'}`,

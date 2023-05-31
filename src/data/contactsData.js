@@ -1,5 +1,5 @@
 export const contactsData = {
-  email: "vijay.rm861@gmail.com",
+  email: "vijayvj4224@gmail.com",
   phone: "+91 8019760762",
   address: "Nagari, Andhra Pradesh, India ",
   github: "https://github.com/vijay-vj5",

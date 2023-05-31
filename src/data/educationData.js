@@ -8,13 +8,20 @@ export const educationData = [
     },
     {
         id: 2,
+        institution: 'Seshachala Institute of Management Studies',
+        course: 'Master of Business Administration',
+        startYear: '2018',
+        endYear: '2020'
+    },
+    {
+        id: 3,
         institution: 'Sri Surya Degree Collage',
         course: 'Bachelor of Computer Science',
         startYear: '2015',
         endYear: '2018'
     },
     {
-        id: 3,
+        id: 4,
         institution: 'Sri Surya Junior Collage',
         course: 'Intermediate Education',
         startYear: '2013',

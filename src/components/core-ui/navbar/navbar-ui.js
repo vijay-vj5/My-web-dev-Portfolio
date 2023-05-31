@@ -7,7 +7,7 @@ import { IoClose, IoHomeSharp, IoMenuSharp } from 'react-icons/io5';
 import { MdPhone } from 'react-icons/md';
 import Fade from 'react-reveal/Fade';
 import { HashLink as NavLink } from 'react-router-hash-link';
-import { headerData } from '../../../data/headerData';
+// import { headerData } from '../../../data/headerData';
 import './navbar.css';
 
 function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClose, open, changeTheme, isDark }) {
@@ -16,9 +16,9 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
     return (
         <div className='navbar'>
             <div className='navbar--container'>
-                <h1 style={{ color: theme.primary }}>
+                {/* <h1 style={{ color: theme.primary }}>
                     {shortname(headerData.name)}
-                </h1>
+                </h1> */}
 
                 <IoMenuSharp
                     className={classes.navMenu}
@@ -106,7 +106,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Resume
+                                        Education
                                     </span>
                                 </div>
                             </NavLink>
